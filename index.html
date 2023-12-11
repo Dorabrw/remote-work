@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Project</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div class="header">
+
+  </div>
+  <div class="topnav" id="myTopnav">
+    <div class="logo-container">
+      <img src="pictures/logo.svg" id="logo">
+    </div>
+    <div class="left-nav">
+      
+      <div class="dropdown">
+        <button class="dropbtn" id="features-dropdown">Features<img src="pictures/icon-arrow-down.svg" class="arrow"
+            id="features-arrow"></button>
+        <div class="dropdown-content" id="features-dropdown-content">
+          <ul class="dropdown">
+            <li class="dropdown"><a href="#"><img src="pictures/icon-todo.svg">Todo List</a></li>
+            <li class="dropdown"><a href="#"><img src="pictures/icon-calendar.svg">Calendar</a></li>
+            <li class="dropdown"><a href="#"><img src="pictures/icon-reminders.svg">Reminders</a></li>
+            <li class="dropdown"><a href="#"><img src="pictures/icon-planning.svg">Planning</a></li>
+          </ul>          
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" id="company-dropdown">Company<img src="pictures/icon-arrow-down.svg" class="arrow"
+            id="company-arrow"></button>
+        <div class="dropdown-content1" id="company-dropdown-content">
+          <ul class="dropdown">
+            <li class="dropdown"><a href="#">History</a></li>
+            <li class="dropdown"><a href="#">Our Team</a></li>
+            <li class="dropdown"><a href="#">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+      <a href="index.html">Careers</a>
+      <a href="index.html">About</a>
+    </div>
+    <div class="right-nav">
+      <div class="log-button">
+        <button class="login-button" id="loginButton">Login</button>
+        <div class="login-form" id="loginForm">
+          <span class="close" id="closeButton">&times;</span>
+          <h2 class="login-text">Login</h2>
+          <form>
+            <label for="email">Enter e-mail:</label>
+            <input type="email" id="email" required>
+            <label for="password">Enter password:</label>
+            <input type="password" id="password" required>
+            <button type="submit" class="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="reg-button">
+        <button class="signup-button" id="signupButton">Sign up</button>
+      </div>
+    </div>
+    <div class="hamburger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <div class="hamburger-content" style = "transform: translateX(100%)">
+      <button class="close-ham-menu">&times;</button>
+      <ul>
+        <li class="ham-drop-menu">
+          <button class="ham-dropbtn">Features<img src="pictures/icon-arrow-down.svg" class="arrow" id="features-arrow"></button>
+          <ul class="features-ham-menu">
+            <li class="features-ham-menu"><a href="#"><img src="pictures/icon-todo.svg">Todo List</a></li>
+            <li class="features-ham-menu"><a href="#"><img src="pictures/icon-calendar.svg">Calendar</a></li>
+            <li class="features-ham-menu"><a href="#"><img src="pictures/icon-reminders.svg">Reminders</a></li>
+            <li class="features-ham-menu"><a href="#"><img src="pictures/icon-planning.svg">Planning</a></li>            
+          </ul>
+        </li>
+        <li class="ham-drop-menu">
+          <button class="ham-dropbtn1">Company<img src="pictures/icon-arrow-down.svg" class="arrow" id="company-arrow"></button>
+          <ul class="company-ham-menu">
+            <li class="company-ham-menu"><a href="#">History</a></li>
+            <li class="company-ham-menu"><a href="#">Our Team</a></li>
+            <li class="company-ham-menu"><a href="#">Blog</a></li>
+          </ul>
+        </li>        
+        <li><a href="#">Career</a></li>
+        <li><a href="#">About</a></li>
+        <li><button class="ham-login-button">Login</button></li>
+        <li><button class="ham-reg-button">Sign up</button></li>
+      </ul>
+      
+            
+    </div>
+  </div>
+  <div class="body-container">
+    <div class="text-container">
+      <h2 class="heading">Make your <br> work <span class="mobile-span">remote</span></h2>
+      <p class="heading-description">Get your team in sync, no matter your location. Streamline processes, create team
+        rituals, and watch productivity soar.</p>
+      <div class="learn-button1">
+        <button class="learn-button">Learn more</button>
+      </div>
+      <div class="logo">
+        <div class="logo-image">
+          <img src="pictures/client-databiz.svg">
+        </div>
+        <div class="logo-image">
+          <img src="pictures/client-audiophile.svg">
+        </div>
+        <div class="logo-image">
+          <img src="pictures/client-meet.svg">
+        </div>
+        <div class="logo-image">
+          <img src="pictures/client-maker.svg">
+        </div>
+      </div>
+    </div>
+    <div class="photo-container">
+      <img src="pictures/main-photo2.png" id="main-image">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
